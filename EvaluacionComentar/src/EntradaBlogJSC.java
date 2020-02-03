@@ -21,7 +21,11 @@
 		 * @param string2 es igual a autor
 		 */
 		public EntradaBlogJSC(int i, String string, String string2) {
+			id=i;
+			texto=string;
+			autor=string2;
 		}
+		
 		/**
 		 * 
 		 * Constructor de la clase. recibe el número de entrada, el nombre del autor
@@ -76,7 +80,7 @@
 		 * @param args No tiene porqué tener argumentos.
 		 */
 		public static void main(String[] args) {
-			EntradaBlogJSC e1=new EntradaBlogJSC (-3,"jesus","Últimas noticias, está disponible BixBy 2.0");
+			EntradaBlogJSC e1=new EntradaBlogJSC (112412,"jesus","Ultimas noticias, esta disponible BixBy 2.0");
 			System.out.println(e1);
 		}
 	}
